@@ -7,8 +7,8 @@ exports.bitcoin = {
     public: 0x022d2533,
     private: 0x0221312b,
   },
-  pubKeyHash: 0x40,
-  scriptHash: 0x13,
+  pubKeyHash: 0x28,
+  scriptHash: 0x0d,
   wif: 0xd4,
 };
 exports.regtest = {
