@@ -11,6 +11,17 @@ exports.bitcoin = {
   scriptHash: 0x0d,
   wif: 0xd4,
 };
+exports.helix = {
+  messagePrefix: '\x18DarkNet Signed Message:\n',
+  bech32: 'ph',
+  bip32: {
+    public: 0x022d2533,
+    private: 0x0221312b,
+  },
+  pubKeyHash: 0x28,
+  scriptHash: 0x0d,
+  wif: 0xd4,
+};
 exports.regtest = {
   messagePrefix: '\x18DarkNet Signed Message:\n',
   bech32: 'tp',
