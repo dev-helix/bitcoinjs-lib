@@ -21,8 +21,8 @@ export const bitcoin: Network = {
     public: 0x022d2533,
     private: 0x0221312b,
   },
-  pubKeyHash: 0x28,
-  scriptHash: 0x0d,
+  pubKeyHash: 0x40,
+  scriptHash: 0x13,
   wif: 0xd4,
 };
 export const regtest: Network = {
