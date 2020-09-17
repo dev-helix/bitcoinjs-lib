@@ -109,7 +109,7 @@ export class Psbt {
       __TX_IN_CACHE: {},
       __TX: (this.data.globalMap.unsignedTx as PsbtTransaction).tx,
     };
-    if (this.data.inputs.length === 0) this.setVersion(2);
+    if (this.data.inputs.length === 0) this.setVersion(1);
 
     // Make data hidden when enumerating
     const dpew = (
